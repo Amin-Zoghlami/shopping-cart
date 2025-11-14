@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Series Baseball Glove",
+    "price": 79.99,
+    "image": "",
+    "category": "Gloves"
+  },
+  {
+    "id": 2,
+    "name": "Youth Leather Glove",
+    "price": 49.99,
+    "image": "",
+    "category": "Gloves"
+  },
+  {
+    "id": 3,
+    "name": "Catcher's Mitt",
+    "price": 89.99,
+    "image": "",
+    "category": "Gloves"
+  },
+  {
+    "id": 4,
+    "name": "All-Star Fielding Glove",
+    "price": 69.99,
+    "image": "",
+    "category": "Gloves"
+  },
+  {
+    "id": 5,
+    "name": "Premium Infield Glove",
+    "price": 74.99,
+    "image": "",
+    "category": "Gloves"
+  },
+
+  {
+    "id": 6,
+    "name": "Wooden Baseball Bat",
+    "price": 59.99,
+    "image": "",
+    "category": "Bats"
+  },
+  {
+    "id": 7,
+    "name": "Aluminum Bat",
+    "price": 79.99,
+    "image": "",
+    "category": "Bats"
+  },
+  {
+    "id": 8,
+    "name": "Youth Bat",
+    "price": 39.99,
+    "image": "",
+    "category": "Bats"
+  },
+  {
+    "id": 9,
+    "name": "Pro Series Bat",
+    "price": 99.99,
+    "image": "",
+    "category": "Bats"
+  },
+  {
+    "id": 10,
+    "name": "Balanced Swing Bat",
+    "price": 69.99,
+    "image": "",
+    "category": "Bats"
+  },
+
+  {
+    "id": 11,
+    "name": "Batting Helmet",
+    "price": 49.99,
+    "image": "",
+    "category": "Helmets"
+  },
+  {
+    "id": 12,
+    "name": "Youth Batting Helmet",
+    "price": 39.99,
+    "image": "",
+    "category": "Helmets"
+  },
+  {
+    "id": 13,
+    "name": "Pro Series Helmet",
+    "price": 69.99,
+    "image": "",
+    "category": "Helmets"
+  },
+  {
+    "id": 14,
+    "name": "Team Helmet",
+    "price": 59.99,
+    "image": "",
+    "category": "Helmets"
+  },
+  {
+    "id": 15,
+    "name": "Elite Batting Helmet",
+    "price": 79.99,
+    "image": "",
+    "category": "Helmets"
+  },
+
+  {
+    "id": 16,
+    "name": "Baseball Cleats",
+    "price": 89.99,
+    "image": "",
+    "category": "Cleats"
+  },
+  {
+    "id": 17,
+    "name": "Youth Cleats",
+    "price": 59.99,
+    "image": "",
+    "category": "Cleats"
+  },
+  {
+    "id": 18,
+    "name": "Pro Series Cleats",
+    "price": 109.99,
+    "image": "",
+    "category": "Cleats"
+  },
+  {
+    "id": 19,
+    "name": "Metal Baseball Cleats",
+    "price": 99.99,
+    "image": "",
+    "category": "Cleats"
+  },
+  {
+    "id": 20,
+    "name": "All-Star Cleats",
+    "price": 79.99,
+    "image": "",
+    "category": "Cleats"
+  },
+
+  {
+    "id": 21,
+    "name": "Batting Gloves",
+    "price": 24.99,
+    "image": "",
+    "category": "Batting Gloves"
+  },
+  {
+    "id": 22,
+    "name": "Youth Batting Gloves",
+    "price": 19.99,
+    "image": "",
+    "category": "Batting Gloves"
+  },
+  {
+    "id": 23,
+    "name": "Pro Series Batting Gloves",
+    "price": 29.99,
+    "image": "",
+    "category": "Batting Gloves"
+  },
+  {
+    "id": 24,
+    "name": "Team Batting Gloves",
+    "price": 27.99,
+    "image": "",
+    "category": "Batting Gloves"
+  },
+  {
+    "id": 25,
+    "name": "Elite Batting Gloves",
+    "price": 34.99,
+    "image": "",
+    "category": "Batting Gloves"
+  }
+]
