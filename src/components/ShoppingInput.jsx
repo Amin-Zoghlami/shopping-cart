@@ -3,6 +3,19 @@ import { useState } from "react";
 function ShoppingInput({ productId, setCart }) {
   const [amount, setAmount] = useState(0);
 
+  function addToCart() {
+    setCart((prevCart) => {
+      if (prevCart.some((product) => product.id === productId)) {
+        return prevCart.map((product) =>
+          product.id === productId
+            ? { ...product, amount: product.amount + amount }
+            : product
+        );
+      }
+      return [...prevCart, { id: productId, amount: amount }];
+    });
+  }
+
   return (
     <div>
       <button
@@ -24,18 +37,9 @@ function ShoppingInput({ productId, setCart }) {
       </button>
       <button
         type="submit"
-        onClick={() =>
-          setCart((prevCart) => {
-            if (prevCart.some((product) => product.id === productId)) {
-              return prevCart.map((product) =>
-                product.id === productId
-                  ? { ...product, amount: product.amount + amount }
-                  : product
-              );
-            }
-            return [...prevCart, { id: productId, amount: amount }];
-          })
-        }
+        onClick={() => {
+          if (amount > 0) addToCart();
+        }}
       >
         Add to cart
       </button>
