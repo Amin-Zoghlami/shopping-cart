@@ -1,18 +1,18 @@
 import { useState } from "react";
 
 function ShoppingInput({ productId, setCart }) {
-  const [amount, setAmount] = useState(0);
+  const [quantity, setQuantity] = useState(0);
 
   function addToCart() {
     setCart((prevCart) => {
       if (prevCart.some((product) => product.id === productId)) {
         return prevCart.map((product) =>
           product.id === productId
-            ? { ...product, amount: product.amount + amount }
+            ? { ...product, quantity: product.quantity + quantity }
             : product
         );
       }
-      return [...prevCart, { id: productId, amount: amount }];
+      return [...prevCart, { id: productId, quantity: quantity }];
     });
   }
 
@@ -20,17 +20,17 @@ function ShoppingInput({ productId, setCart }) {
     <div>
       <button
         onClick={() => {
-          if (amount <= 0) return;
-          setAmount((prevAmount) => prevAmount - 1);
+          if (quantity <= 0) return;
+          setQuantity((prevQuantity) => prevQuantity - 1);
         }}
       >
         -
       </button>
-      <input type="number" placeholder={amount} />
+      <input type="number" placeholder={quantity} />
       <button
         onClick={() => {
-          if (amount >= 20) return;
-          setAmount((prevAmount) => prevAmount + 1);
+          if (quantity >= 20) return;
+          setQuantity((prevQuantity) => prevQuantity + 1);
         }}
       >
         +
@@ -38,7 +38,7 @@ function ShoppingInput({ productId, setCart }) {
       <button
         type="submit"
         onClick={() => {
-          if (amount > 0) addToCart();
+          if (quantity > 0) addToCart();
         }}
       >
         Add to cart

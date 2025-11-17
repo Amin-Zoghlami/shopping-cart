@@ -7,7 +7,7 @@ function Shop() {
   const groupedProducts = groupProducts(products);
 
   return (
-    <div>
+    <>
       {Object.entries(groupedProducts).map(([category, products]) => (
         <ShoppingSection
           key={category}
@@ -16,7 +16,7 @@ function Shop() {
           setCart={setCart}
         />
       ))}
-    </div>
+    </>
   );
 }
 

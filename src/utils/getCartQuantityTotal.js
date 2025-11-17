@@ -1,7 +1,7 @@
 function getCartQuantityTotal(cart) {
   let total = 0;
-  cart.forEach(({ amount }) => {
-    total += amount;
+  cart.forEach(({ quantity }) => {
+    total += quantity;
   });
   return total;
 }
