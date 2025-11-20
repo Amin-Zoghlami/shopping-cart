@@ -4,7 +4,7 @@ function CartProduct({ fullProduct, setCart }) {
   return (
     <div>
       <h2>{fullProduct.name}</h2>
-      <p>{fullProduct.price}</p>
+      <p>${(fullProduct.price * fullProduct.quantity).toFixed(2)}</p>
       <p>{fullProduct.quantity}</p>
       <CartInput
         productId={fullProduct.id}

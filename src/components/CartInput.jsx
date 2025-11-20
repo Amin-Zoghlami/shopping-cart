@@ -3,7 +3,7 @@ function CartInput({ productId, productQuantity, setCart }) {
     <div>
       <button
         onClick={() => {
-          if (productQuantity <= 0) return;
+          if (productQuantity <= 1) return;
           setCart((prevCart) =>
             prevCart.map((product) =>
               product.id === productId
@@ -29,6 +29,15 @@ function CartInput({ productId, productQuantity, setCart }) {
         }}
       >
         +
+      </button>
+      <button
+        onClick={() => {
+          setCart((prevCart) =>
+            prevCart.filter((product) => product.id !== productId)
+          );
+        }}
+      >
+        Remove Product
       </button>
     </div>
   );

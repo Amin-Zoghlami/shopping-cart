@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Pro Series Baseball Glove",
-    "price": 79.99,
-    "image": "",
+    "name": "Wilson A2000",
+    "price": 299.99,
+    "image": "/images/gloves/wilson-a2000.png",
     "category": "Gloves"
   },
   {
     "id": 2,
-    "name": "Youth Leather Glove",
-    "price": 49.99,
-    "image": "",
+    "name": "Rawlings Heart of the Hide",
+    "price": 299.99,
+    "image": "/images/gloves/rawlings-heart-of-the-hide.png",
     "category": "Gloves"
   },
   {
     "id": 3,
-    "name": "Catcher's Mitt",
-    "price": 89.99,
-    "image": "",
+    "name": "Mizuno Pro",
+    "price": 399.99,
+    "image": "/images/gloves/mizuno-pro.png",
     "category": "Gloves"
   },
   {
     "id": 4,
-    "name": "All-Star Fielding Glove",
-    "price": 69.99,
-    "image": "",
+    "name": "Wilson A2k",
+    "price": 399.99,
+    "image": "/images/gloves/wilson-a2k.png",
     "category": "Gloves"
   },
   {
     "id": 5,
-    "name": "Premium Infield Glove",
-    "price": 74.99,
-    "image": "",
+    "name": "Rawlings Pro Preferred",
+    "price": 429.99,
+    "image": "/images/gloves/rawlings-pro-preferred.png",
     "category": "Gloves"
   },
 
