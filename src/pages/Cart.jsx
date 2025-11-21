@@ -11,8 +11,14 @@ function Cart() {
     return { ...fullProduct, quantity: cartProduct.quantity };
   });
 
+  let total = 0;
+  for (const fullProduct of fullCart) {
+    total += fullProduct.price * fullProduct.quantity;
+  }
+  total = total.toFixed(2);
+
   return (
-    <>
+    <div>
       {fullCart.map((fullProduct) => (
         <CartProduct
           key={fullProduct.id}
@@ -20,10 +26,9 @@ function Cart() {
           setCart={setCart}
         />
       ))}
-    </>
+      <p>Total: {total}</p>
+    </div>
   );
 }
 
 export default Cart;
-// Loop through cart, get id, match to product,
-// copy the product object, and add to new list with amount.

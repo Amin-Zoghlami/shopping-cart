@@ -1,4 +1,16 @@
 .nav {
   background-color: #ba0021;
   color: #ffffff;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 100px;
+}
+
+.links {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

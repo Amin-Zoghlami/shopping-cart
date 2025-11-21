@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Lobster, cursive;
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url(/src/assets/fonts/Lobster-Regular.ttf);
 }
 
 body {
