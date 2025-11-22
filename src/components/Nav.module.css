@@ -5,11 +5,11 @@
 }
 
 .h1 {
-  font-size: 100px;
+  font-size: 5rem;
 }
 
 .links {
-  font-size: 20px;
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

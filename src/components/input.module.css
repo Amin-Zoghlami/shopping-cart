@@ -1,0 +1,17 @@
+.comp {
+  display: flex;
+  gap: 20px;
+}
+
+.inc {
+  font-size: 1.25rem;
+  height: 25px;
+  width: 25px;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 5px;
+  height: 25px;
+  width: 100px;
+}

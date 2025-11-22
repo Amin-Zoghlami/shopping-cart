@@ -22,7 +22,7 @@
   },
   {
     "id": 4,
-    "name": "Wilson A2k",
+    "name": "Wilson A2K",
     "price": 399.99,
     "image": "/images/gloves/wilson-a2k.png",
     "category": "Gloves"
@@ -37,145 +37,145 @@
 
   {
     "id": 6,
-    "name": "Wooden Baseball Bat",
-    "price": 59.99,
-    "image": "",
+    "name": "Easton Hype Fire",
+    "price": 299.99,
+    "image": "/images/bats/easton-hype-fire.png",
     "category": "Bats"
   },
   {
     "id": 7,
-    "name": "Aluminum Bat",
-    "price": 79.99,
-    "image": "",
+    "name": "Old Hickory MT 27",
+    "price": 219.99,
+    "image": "/images/bats/old-hickory-mt27.png",
     "category": "Bats"
   },
   {
     "id": 8,
-    "name": "Youth Bat",
-    "price": 39.99,
-    "image": "",
+    "name": "Marucci Cat X2",
+    "price": 169.99,
+    "image": "/images/bats/marucci-catx2.png",
     "category": "Bats"
   },
   {
     "id": 9,
-    "name": "Pro Series Bat",
-    "price": 99.99,
-    "image": "",
+    "name": "Victus Tatis 23",
+    "price": 209.99,
+    "image": "/images/bats/victus-tatis23.png",
     "category": "Bats"
   },
   {
     "id": 10,
-    "name": "Balanced Swing Bat",
-    "price": 69.99,
-    "image": "",
+    "name": "Demarini The Goods",
+    "price": 349.99,
+    "image": "/images/bats/demarini-the-goods.png",
     "category": "Bats"
   },
 
   {
     "id": 11,
-    "name": "Batting Helmet",
-    "price": 49.99,
-    "image": "",
+    "name": "Rawlings Mach",
+    "price": 59.99,
+    "image": "images/helmets/rawlings-mach-pro.png",
     "category": "Helmets"
   },
   {
     "id": 12,
-    "name": "Youth Batting Helmet",
-    "price": 39.99,
-    "image": "",
+    "name": "Easton Matte",
+    "price": 59.99,
+    "image": "images/helmets/easton-matte.png",
     "category": "Helmets"
   },
   {
     "id": 13,
-    "name": "Pro Series Helmet",
-    "price": 69.99,
-    "image": "",
+    "name": "EvoShield XVT 2.0",
+    "price": 59.99,
+    "image": "images/helmets/evoshield-xvt2.png",
     "category": "Helmets"
   },
   {
     "id": 14,
-    "name": "Team Helmet",
-    "price": 59.99,
-    "image": "",
+    "name": "Mizuno B6",
+    "price": 54.99,
+    "image": "images/helmets/mizuno-b6.png",
     "category": "Helmets"
   },
   {
     "id": 15,
-    "name": "Elite Batting Helmet",
+    "name": "Marucci DuraVent",
     "price": 79.99,
-    "image": "",
+    "image": "images/helmets/marucci-duravent.png",
     "category": "Helmets"
   },
 
   {
     "id": 16,
-    "name": "Baseball Cleats",
-    "price": 89.99,
-    "image": "",
+    "name": "Nike Alpha Huarache",
+    "price": 154.99,
+    "image": "images/cleats/nike-alpha-huarache.png",
     "category": "Cleats"
   },
   {
     "id": 17,
-    "name": "Youth Cleats",
-    "price": 59.99,
-    "image": "",
+    "name": "Mizuno Ambition",
+    "price": 104.99,
+    "image": "images/cleats/mizuno-ambition.png",
     "category": "Cleats"
   },
   {
     "id": 18,
-    "name": "Pro Series Cleats",
-    "price": 109.99,
-    "image": "",
+    "name": "New Balance FuelCell",
+    "price": 159.99,
+    "image": "images/cleats/new-balance-fuelcell.png",
     "category": "Cleats"
   },
   {
     "id": 19,
-    "name": "Metal Baseball Cleats",
+    "name": "Adidas Adizero Impact",
     "price": 99.99,
-    "image": "",
+    "image": "images/cleats/adidas-adizero-impact.png",
     "category": "Cleats"
   },
   {
     "id": 20,
-    "name": "All-Star Cleats",
-    "price": 79.99,
-    "image": "",
+    "name": "Under Armour Harper Pro",
+    "price": 109.99,
+    "image": "images/cleats/under-armour-harper-pro.png",
     "category": "Cleats"
   },
 
   {
     "id": 21,
-    "name": "Batting Gloves",
-    "price": 24.99,
-    "image": "",
+    "name": "Franklin CFX Pro",
+    "price": 39.99,
+    "image": "images/batting-gloves/franklin-cfx-pro.png",
     "category": "Batting Gloves"
   },
   {
     "id": 22,
-    "name": "Youth Batting Gloves",
-    "price": 19.99,
-    "image": "",
+    "name": "EvoShield Carbyne",
+    "price": 64.99,
+    "image": "images/batting-gloves/evoshield-carbyne.png",
     "category": "Batting Gloves"
   },
   {
     "id": 23,
-    "name": "Pro Series Batting Gloves",
-    "price": 29.99,
-    "image": "",
+    "name": "Marucci Blacksmith",
+    "price": 59.99,
+    "image": "images/batting-gloves/marucci-blacksmith.png",
     "category": "Batting Gloves"
   },
   {
     "id": 24,
-    "name": "Team Batting Gloves",
-    "price": 27.99,
-    "image": "",
+    "name": "Rawlings Workhorse",
+    "price": 54.99,
+    "image": "images/batting-gloves/rawlings-workhorse.png",
     "category": "Batting Gloves"
   },
   {
     "id": 25,
-    "name": "Elite Batting Gloves",
-    "price": 34.99,
-    "image": "",
+    "name": "Mizuno MVP",
+    "price": 29.99,
+    "image": "images/batting-gloves/mizuno-mvp.png",
     "category": "Batting Gloves"
   }
 ]

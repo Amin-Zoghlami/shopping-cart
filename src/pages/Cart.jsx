@@ -1,5 +1,6 @@
 import { useOutletContext } from "react-router";
 import CartProduct from "../components/CartProduct";
+import styles from "./Cart.module.css";
 
 function Cart() {
   const { products, cart, setCart } = useOutletContext();
@@ -18,16 +19,18 @@ function Cart() {
   total = total.toFixed(2);
 
   return (
-    <div>
-      {fullCart.map((fullProduct) => (
-        <CartProduct
-          key={fullProduct.id}
-          fullProduct={fullProduct}
-          setCart={setCart}
-        />
-      ))}
-      <p>Total: {total}</p>
-    </div>
+    <main>
+      <div className={styles.cart}>
+        {fullCart.map((fullProduct) => (
+          <CartProduct
+            key={fullProduct.id}
+            fullProduct={fullProduct}
+            setCart={setCart}
+          />
+        ))}
+        <p>Total: {total}</p>
+      </div>
+    </main>
   );
 }
 

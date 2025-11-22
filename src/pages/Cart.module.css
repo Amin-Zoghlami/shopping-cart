@@ -1,0 +1,8 @@
+.cart {
+  background-color: #ba0021;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}

@@ -8,7 +8,10 @@ function ShoppingInput({ productId, setCart }) {
       if (prevCart.some((product) => product.id === productId)) {
         return prevCart.map((product) =>
           product.id === productId
-            ? { ...product, quantity: product.quantity + quantity }
+            ? {
+                ...product,
+                quantity: Math.min(20, product.quantity + quantity),
+              }
             : product
         );
       }
@@ -26,7 +29,15 @@ function ShoppingInput({ productId, setCart }) {
       >
         -
       </button>
-      <input type="number" placeholder={quantity} />
+      <input
+        type="number"
+        placeholder="0"
+        value={quantity === 0 ? "" : quantity}
+        onChange={(e) => {
+          const val = Math.min(20, Math.max(0, Number(e.target.value)));
+          setQuantity(val);
+        }}
+      />
       <button
         onClick={() => {
           if (quantity >= 20) return;
