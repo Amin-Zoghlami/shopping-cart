@@ -8,14 +8,16 @@ function Shop() {
 
   return (
     <main>
-      {Object.entries(groupedProducts).map(([category, products]) => (
-        <ShoppingSection
-          key={category}
-          category={category}
-          products={products}
-          setCart={setCart}
-        />
-      ))}
+      <div>
+        {Object.entries(groupedProducts).map(([category, products]) => (
+          <ShoppingSection
+            key={category}
+            category={category}
+            products={products}
+            setCart={setCart}
+          />
+        ))}
+      </div>
     </main>
   );
 }

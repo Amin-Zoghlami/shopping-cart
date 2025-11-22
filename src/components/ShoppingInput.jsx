@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./input.module.css";
 
 function ShoppingInput({ productId, setCart }) {
   const [quantity, setQuantity] = useState(0);
@@ -20,8 +21,9 @@ function ShoppingInput({ productId, setCart }) {
   }
 
   return (
-    <div>
+    <div className={styles.comp}>
       <button
+        className={styles.inc}
         onClick={() => {
           if (quantity <= 0) return;
           setQuantity((prevQuantity) => prevQuantity - 1);
@@ -30,6 +32,7 @@ function ShoppingInput({ productId, setCart }) {
         -
       </button>
       <input
+        className={styles.input}
         type="number"
         placeholder="0"
         value={quantity === 0 ? "" : quantity}
@@ -39,6 +42,7 @@ function ShoppingInput({ productId, setCart }) {
         }}
       />
       <button
+        className={styles.inc}
         onClick={() => {
           if (quantity >= 20) return;
           setQuantity((prevQuantity) => prevQuantity + 1);

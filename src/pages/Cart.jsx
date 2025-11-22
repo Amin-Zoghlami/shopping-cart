@@ -20,15 +20,17 @@ function Cart() {
 
   return (
     <main>
-      <div className={styles.cart}>
-        {fullCart.map((fullProduct) => (
-          <CartProduct
-            key={fullProduct.id}
-            fullProduct={fullProduct}
-            setCart={setCart}
-          />
-        ))}
-        <p>Total: {total}</p>
+      <div className={styles.container}>
+        <div className={styles.cart}>
+          {fullCart.map((fullProduct) => (
+            <CartProduct
+              key={fullProduct.id}
+              fullProduct={fullProduct}
+              setCart={setCart}
+            />
+          ))}
+          <p>Total: {total}</p>
+        </div>
       </div>
     </main>
   );
